@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Google Regression Suite]">
+  <test name="Goggle Regression Test(failed)">
+    <classes>
+      <class name="selenium.traning.AppTest">
+        <methods>
+          <include name="verifyHeaderofApp1"/>
+          <include name="launchApplicationandLogin"/>
+        </methods>
+      </class> <!-- selenium.traning.AppTest -->
+    </classes>
+  </test> <!-- Goggle Regression Test(failed) -->
+</suite> <!-- Failed suite [Google Regression Suite] -->

@@ -34,6 +34,7 @@ public class AppTest extends Accelerator
 	@Test
 	public void verifyHeaderofApp1() throws Exception
 	{
+		System.out.println("demo");
 		po.VerifyHeader();		
 		
 	}
